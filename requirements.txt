@@ -1,0 +1,71 @@
+# Core LLM and AI
+openai==1.12.0
+anthropic==0.18.1
+google-generativeai==0.3.2
+langchain==0.1.9
+langchain-openai==0.0.5
+langchain-anthropic==0.0.2
+
+# Agent Framework
+autogen-agentchat==0.2.1
+crewai==0.11.0
+
+# Code Analysis & Generation
+ast-comments==1.1.2
+black==24.1.1
+isort==5.13.2
+flake8==7.0.0
+pylint==3.0.3
+radon==6.0.1
+
+# File Operations
+pathl ib==1.0.1
+watchdog==4.0.0
+
+# Git Integration
+gitpython==3.1.41
+PyGithub==2.1.1
+
+# Package Management
+pip-tools==7.3.0
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Deployment APIs
+vercel==0.5.0
+requests==2.31.0
+httpx==0.26.0
+
+# Database
+psycopg2-binary==2.9.9
+pymongo==4.6.1
+redis==5.0.1
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.5.3
+pydantic-settings==2.1.0
+rich==13.7.0
+click==8.1.7
+typer==0.9.0
+tenacity==8.2.3
+
+# Vector Database for Context
+chromadb==0.4.22
+faiss-cpu==1.7.4
+
+# Code Execution
+ipython==8.20.0
+jupyter==1.0.0
+
+# Monitoring
+sentry-sdk==1.40.0
+
+# Web UI Backend
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+websockets==12.0
